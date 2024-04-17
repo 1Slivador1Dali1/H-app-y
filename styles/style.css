@@ -18,16 +18,21 @@
 
   header {
     height: 90px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
 
   nav {
     width: 1200px;
     height: 90px;
-    display: inline-flex;
+    display: flex;
     padding: 0px 120px;
   }
 
   .logo {
     width: 120px;
     height: 40px;
+  }
+
+  .list-menu li {
+    display: inline;
   }

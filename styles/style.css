@@ -22,7 +22,7 @@
   }
 
   nav {
-    width: 1200px;
+    /* width: 1200px; */
     height: 90px;
     display: flex;
     padding: 0px 120px;
@@ -30,9 +30,33 @@
 
   .logo {
     width: 120px;
-    height: 40px;
+    height: 40px;padding: 25px 0px 25px 32px;
+  }
+
+  .list-menu {
+    padding: 20px 20px 20px 420px;
   }
 
   .list-menu li {
-    display: inline;
+    display: inline-block;
+    height: 50px;
+    
+  }
+
+  li a {
+    display: block;
+    padding: 13px 32px 13px 16px;
+    text-decoration: none;
+  }
+
+  .list-menu li:last-child {
+    border-radius: 4px;
+    width: 172px;
+    height: 40px;
+    background-color: #222222;
+    text-align: center;
+  }
+
+  #link_menu_button {
+    padding: 10px 25px 12px 25px;
   }
